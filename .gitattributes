@@ -14,4 +14,7 @@
 *.pdf  diff=astextplain
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.RTF	 diff=astextplain 
+
+#Setting Language to Python 
+*.rb linguist-language=Python
