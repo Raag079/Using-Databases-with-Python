@@ -17,4 +17,10 @@
 *.RTF	 diff=astextplain 
 
 #Setting Language to Python 
-*.rb linguist-language=Python
+*.rb linguist-language=Python 
+
+special-vendored-path/* linguist-vendored
+jquery.js linguist-vendored=false 
+
+project-docs/* linguist-documentation
+docs/formatter.rb linguist-documentation=false 
